@@ -29,8 +29,8 @@ export default function ServiceList() {
                 {service.description}
               </p>
               <p className="text-gray-700 dark:text-gray-200 font-bold mb-4">
-                {service.price}
                 <span className="text-green-300">$</span>
+                {service.price}    
               </p>
               {isLoggedIn ? (
                 <div className="flex space-x-4">
